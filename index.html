@@ -1,1 +1,277 @@
-g
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>قلتش ستور</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Changa:wght@600&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Changa', sans-serif;
+      background: #000 url('https://cdn.discordapp.com/attachments/1364647589403955280/1385712460312608920/image.png') center center/cover fixed no-repeat;
+      color: white;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 50px 20px;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .hero h1 {
+      font-size: 3.5em;
+      color: white;
+    }
+
+    .hero h1 span {
+      color: #f7c1d9;
+    }
+
+    .hero p {
+      font-size: 1.3em;
+      margin: 20px 0;
+    }
+
+    .hero .buttons {
+      margin-top: 25px;
+    }
+
+    .hero .buttons a {
+      padding: 12px 30px;
+      margin: 5px;
+      border-radius: 8px;
+      font-size: 1em;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn-discord {
+      background-color: #f7c1d9;
+      color: black;
+    }
+
+    .btn-login {
+      background-color: white;
+      color: black;
+    }
+
+    .title-section {
+      text-align: center;
+      font-size: 3em;
+      margin: 80px 0 40px;
+      color: #f7c1d9;
+      animation: fadeIn 1s ease forwards;
+    }
+
+    .cards-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      margin-bottom: 80px;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.05);
+      border: 1px solid #f7c1d9;
+      border-radius: 20px;
+      padding: 40px;
+      width: 90%;
+      max-width: 600px;
+      text-align: center;
+      backdrop-filter: blur(6px);
+      transition: transform 0.3s;
+      animation: fadeInUp 0.8s ease forwards;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .card svg {
+      width: 70px;
+      height: 70px;
+      margin-bottom: 25px;
+      fill: #f7c1d9;
+      filter: drop-shadow(0 0 8px #f7c1d9aa);
+    }
+
+    .card h3 {
+      font-size: 1.8em;
+      margin: 15px 0;
+    }
+
+    .card p {
+      font-size: 1.1em;
+      color: #ddd;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      border-radius: 20px;
+      margin-bottom: 25px;
+      background: transparent;
+    }
+
+    .buy-button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 30px;
+      background-color: #f7c1d9;
+      color: black;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 1.1em;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .buy-button:hover {
+      background-color: #f3a7c7;
+    }
+
+    .faq-section {
+      max-width: 800px;
+      margin: 60px auto;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #f7c1d9;
+      padding: 15px 0;
+    }
+
+    .faq-question {
+      cursor: pointer;
+      font-size: 1.2em;
+      position: relative;
+      color: white;
+      transition: 0.3s;
+    }
+
+    .faq-question.active {
+      color: #f7c1d9;
+    }
+
+    .faq-answer {
+      display: none;
+      margin-top: 10px;
+      color: #ccc;
+      line-height: 1.7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 10px;
+      font-size: 1em;
+      background-color: rgba(0,0,0,0.6);
+      border-top: 1px solid #f7c1d9;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(-20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    @keyframes fadeInUp {
+      from {opacity: 0; transform: translateY(30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+
+    <div class="hero">
+      <h1>فوق كل شيء <span>قلتش</span></h1>
+      <p>هل تريد بوستات لسيرفرك؟ ، هل تبحث عن نايترو آمن لحسابك؟<br>سيرفرنا الأرخص في الشرق الأوسط.</p>
+      <div class="buttons">
+        <a href="https://discord.gg/E8wVMNAJV4" class="btn-discord">ديسكورد</a>
+        <a href="https://discord.com/login" class="btn-login">تسجيل الدخول</a>
+      </div>
+    </div>
+
+    <div class="title-section">لماذا قلتش؟</div>
+    <div class="cards-container">
+      <div class="card">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+        <h3>منتجات مميزة</h3>
+        <p>نسعد بتقديم تشكيلات راقية تجمع بين الجودة والسعر.</p>
+      </div>
+
+      <div class="card">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C7.59 3 4 4.79 4 7s3.59 4 8 4 8-1.79 8-4-3.59-4-8-4zm0 6c-3.31 0-6-.9-6-2s2.69-2 6-2 6 .9 6 2-2.69 2-6 2zM4 12v2c0 2.21 3.59 4 8 4s8-1.79 8-4v-2c-1.18.99-3.52 1.5-6.05 1.5S5.18 12.99 4 12zm0 4v2c0 2.21 3.59 4 8 4s8-1.79 8-4v-2c-1.18.99-3.52 1.5-6.05 1.5S5.18 16.99 4 16z"/></svg>
+        <h3>أسعار مثالية</h3>
+        <p>ترتيبنا يعتمد على الجمع بين الجودة والرخص.</p>
+      </div>
+
+      <div class="card">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1a10 10 0 0 0-10 10v2a10 10 0 0 0 10 10h1a1 1 0 0 0 1-1v-3h-2v2h-1a8 8 0 0 1-8-8v-2a8 8 0 0 1 16 0v2a8 8 0 0 1-1.23 4.3 1 1 0 0 0 .17 1.2l1.33 1.33a1 1 0 0 0 1.41 0l.01-.01a1 1 0 0 0 0-1.41l-1.33-1.33a10 10 0 0 0 1.35-5.08v-2A10 10 0 0 0 12 1z"/></svg>
+        <h3>دعم فني</h3>
+        <p>دعم لحل جميع المشاكل بسرعة وسهولة.</p>
+      </div>
+    </div>
+
+    <div class="title-section">منتجات مقترحة من خادم قلتش</div>
+    <div class="cards-container">
+      <div class="card">
+        <img src="https://i.postimg.cc/yxYbBJ7x/image.png" alt="نيترو شهر">
+        <h3>نيترو شهر</h3>
+        <a href="https://discord.gg/E8wVMNAJV4" class="buy-button">شراء</a>
+      </div>
+
+      <div class="card">
+        <img src="https://i.postimg.cc/yxYbBJ7x/image.png" alt="بوستات ديسكورد">
+        <h3>بوستات ديسكورد</h3>
+        <a href="https://discord.gg/E8wVMNAJV4" class="buy-button">شراء</a>
+      </div>
+
+      <div class="card">
+        <img src="https://i.postimg.cc/yxYbBJ7x/image.png" alt="حسابات">
+        <h3>حسابات</h3>
+        <a href="https://discord.gg/E8wVMNAJV4" class="buy-button">شراء</a>
+      </div>
+    </div>
+
+    <div class="title-section">الأسئلة الشائعة</div>
+    <div class="faq-section">
+      <div class="faq-item">
+        <div class="faq-question">ما هي مدة استلام الطلب؟ +</div>
+        <div class="faq-answer">لا يوجد مدة معينة لكن التسليم لا يتعدى 24 ساعة كحد أقصى.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">هل خادم قلتش يضمن جميع بائعينه؟ +</div>
+        <div class="faq-answer">لا، خادم قلتش لا يضمن جميع بائعينه لكن يمكنك التأكد من خلال التسليمات أو آراء العملاء ويفضل الاستعانة بوسيط.</div>
+      </div>
+    </div>
+
+    <footer>
+      جميع الحقوق محفوظة © قلتش ستور
+    </footer>
+  </div>
+
+  <script>
+    const questions = document.querySelectorAll('.faq-question');
+
+    questions.forEach(q => {
+      q.addEventListener('click', () => {
+        const isActive = q.classList.contains('active');
+        questions.forEach(q => q.classList.remove('active'));
+        document.querySelectorAll('.faq-answer').forEach(a => a.style.display = 'none');
+
+        if (!isActive) {
+          q.classList.add('active');
+          q.nextElementSibling.style.display = 'block';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
